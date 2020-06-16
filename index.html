@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="movie-container">
+        <select id="movie">
+            <option value="8">Stargirl Disney+ ($8)</option>
+            <option value="10">Castle in the Ground TBA ($10)</option>
+            <option value="10">Scoob! TBA ($10)</option>
+            <option value="12">Think Like a Dog TBA ($12)</option>
+        </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="spot"></div>
+            <small>Available</small>
+        </li>
+        <li>
+            <div class="spot reserved"></div>
+            <small>Unavialable</small>
+        </li>
+        <li>
+            <div class="spot selected"></div>
+            <small>Selected</small>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="spot"></div>
+            <div class="spot"></div>
+            <div class="spot"></div>
+            <div class="spot"></div>
+        </div>
+        <div class="row">
+            <div class="spot"></div>
+            <div class="spot"></div>
+            <div class="spot"></div>
+            <div class="spot"></div>
+        </div>
+
+    </div>
+
+    <p class="text">You have selected <span id="count">0</span> spots for a price of $<span id="total">0</span>
+    </p>
+
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
